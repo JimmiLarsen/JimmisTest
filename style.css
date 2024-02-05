@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+
+}
+
+nav {
+    font-size: 55px;
+    background-color: black;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 21px;
+}
+nav a {
+    margin-left: 13px;
+    color: white; /* Ændrer tekstfarven til hvid */
+    text-decoration: none; /* Fjerner understregning */
+    transition: color 0.3s, background-color 0.3s; /* Tilføjer overgangseffekt for farveændring */
+}
+
+nav a:hover {
+    color: yellow; /* Ændrer tekstfarven til hvid ved hover */
+}
+
+article{
+
+}
+
+h1 {
+    margin-left: 13px;
+    font-size: 34px;
+}
+h2 {
+    margin-left: 13px;
+
+}
+
+p {
+    font-size: 21px;
+}
+
+#hovedoversigt {
+    margin-left: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu {
+  margin-top: -233px;  
+}
+
+
+aside {
+    font-style: italic;
+    flex-basis: 30%; /* flytter aside over så den er til højre på hjemmesiden */
+    background-color: yellow;
+    margin-top: 55px;
+    margin-right: 34px;
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+aside p {
+    padding-bottom: 13px;
+}
+aside a {
+    margin-left: auto; /* Placerer linket til højre inden for flex-containeren */
+    font-weight: bold;
+    font-size: 21px;
+    
+}
+
+footer {
+
+}
