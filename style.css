@@ -11,9 +11,7 @@ header {
 nav {
     font-size: 55px;
     background-color: black;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    margin-bottom: 21px;
+    padding: 55px;
 }
 nav a {
     margin-left: 13px;
@@ -27,15 +25,15 @@ nav a:hover {
 }
 
 article{
-
+margin-top: 89px;
 }
 
 h1 {
-    margin-left: 13px;
+    margin-left: 34px;
     font-size: 34px;
 }
 h2 {
-    margin-left: 13px;
+    margin-left: 34px;
 
 }
 
@@ -44,22 +42,40 @@ p {
 }
 
 #hovedoversigt {
-    margin-left: 13px;
+    margin-left: 34px;
     display: flex;
     justify-content: space-between;
 }
 
 #menu {
   margin-top: -233px;  
+  
+}
+.buttonaccess {
+    margin-left: 55px;
+    margin-top: 34px;
+    padding: 21px;
+    background-color: black;
+    font-size: 34px;
+    display: inline-block;
+    border: none;
+}
+
+.buttonaccess a {
+    text-decoration: none; /* Fjerner understregningen */
+    color: white; /* Tekstfarven */
+}
+
+.buttonaccess:hover a {
+    color: yellow; /* Tekstfarven ved hover */
 }
 
 
 aside {
-    font-style: italic;
     flex-basis: 30%; /* flytter aside over så den er til højre på hjemmesiden */
     background-color: yellow;
     margin-top: 55px;
-    margin-right: 34px;
+    margin-right: 89px;
     padding: 21px;
     display: flex;
     flex-direction: column;
@@ -72,8 +88,8 @@ aside p {
 aside a {
     margin-left: auto; /* Placerer linket til højre inden for flex-containeren */
     font-weight: bold;
+    font-style: italic;
     font-size: 21px;
-    
 }
 
 footer {
