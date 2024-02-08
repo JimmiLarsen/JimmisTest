@@ -30,11 +30,13 @@ margin-top: 89px;
 
 h1 {
     margin-left: 34px;
-    font-size: 34px;
+    margin-bottom: 21px;
+    font-size: 89px;
 }
 h2 {
-    margin-left: 89px;
-
+    margin-top: 89px;
+    margin-left: 34px;
+    font-size: 55px;
 }
 
 p {
@@ -45,37 +47,72 @@ p {
     margin-left: 34px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: -144px;
 }
 
-#menu {
-  margin-top: -233px;  
-  
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Fjern punktummet/bullet fra listen */
+}
+
+li {
+    flex: 1 1 48%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.buttonaccesslabel {
+    font-weight: bold;
+}
+
+
+
+li p {
+    margin-left: 89px;
+}
+
+.buttonaccesslabel {
+    font-weight: bold;
+    font-size: 34px;
+    margin-left: 89px;
 }
 .buttonaccess {
-    margin-left: 233px;
-    margin-top: 34px;
+    margin-top: 13px;
+    margin-bottom: 21px;
+    margin-left: 89px;
     padding: 21px;
     background-color: black;
     font-size: 34px;
-    display: inline-block;
     border: none;
 }
 
 .buttonaccess a {
-    text-decoration: none; /* Fjerner understregningen */
-    color: white; /* Tekstfarven */
+    text-decoration: none;
+    color: white;
 }
 
 .buttonaccess:hover a {
-    color: yellow; /* Tekstfarven ved hover */
-}
-.buttonaccesslabel {
-    
+    color: yellow;
 }
 
+
+section h2 {
+    padding-bottom: 21px;
+}
+
+.buttonaccesslabel {
+    margin-top: -21px;
+}
+
+li p:first-of-type {
+    margin-bottom: 21px; /* Juster værdien efter behov for at ændre afstanden */
+}
 
 aside {
-    flex-basis: 30%; /* flytter aside over så den er til højre på hjemmesiden */
+    flex-basis: 40%; /* flytter aside over så den er til højre på hjemmesiden */
     background-color: yellow;
     margin-top: 55px;
     margin-right: 89px;
@@ -93,6 +130,13 @@ aside a {
     font-weight: bold;
     font-style: italic;
     font-size: 21px;
+}
+.content h2 {
+    margin-top: 89px;
+    margin-left: 34px;
+}
+.content p {
+    margin-left: 34px;
 }
 
 footer {
