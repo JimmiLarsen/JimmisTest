@@ -33,7 +33,7 @@ h1 {
     font-size: 34px;
 }
 h2 {
-    margin-left: 34px;
+    margin-left: 89px;
 
 }
 
@@ -52,7 +52,7 @@ p {
   
 }
 .buttonaccess {
-    margin-left: 55px;
+    margin-left: 233px;
     margin-top: 34px;
     padding: 21px;
     background-color: black;
@@ -68,6 +68,9 @@ p {
 
 .buttonaccess:hover a {
     color: yellow; /* Tekstfarven ved hover */
+}
+.buttonaccesslabel {
+    
 }
 
 
