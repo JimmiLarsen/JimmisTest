@@ -1,0 +1,9 @@
+P.O.U.R er en akronym, der 
+står for "Perceivable, Operable, Understandable, and Robust". Det er en reference til principperne for tilgængelighed på internettet, som er fastlagt af World Wide Web Consortium (W3C) i deres retningslinjer kaldet Web Content Accessibility Guidelines (WCAG). Disse principper er designet til at hjælpe udviklere med at skabe websteder og webapplikationer, der er tilgængelige for alle, herunder personer med forskellige former for handicap. Hver del af P.O.U.R repræsenterer en vigtig dimension af tilgængelighed:
+
+Perceivable (Opfattelig): Indholdet skal være let for brugere at opfatte gennem forskellige sanser, såsom syn, hørelse og følelse.
+Operable (Brugbar): Brugere skal kunne betjene interaktive elementer og navigere på webstedet, herunder med forskellige inputenheder som mus, tastatur og touchskærm.
+Understandable (Forståelig): Indholdet skal være klart og forståeligt, så brugerne kan forstå oplysninger og betjene webstedet uden misforståelser.
+Robust (Robust): Webstedet skal være robust og kunne fungere på forskellige enheder, browsere og teknologier, samt være i stand til at tilpasse sig ændringer over tid.
+Disse principper danner grundlaget for at skabe websteder og webapplikationer, der er tilgængelige for alle brugere, uanset deres evner eller teknologiske begrænsninger.
+
