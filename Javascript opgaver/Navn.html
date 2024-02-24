@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="forname">Angiv fornavn</label>
+    <input type="Fornavn" id="fornavn">
+    
+    <br>
+
+    <label for="lastname">Angiv Efternavn</Label>
+    <input type="Lastname" id="lastname">
+    
+    <br>
+    
+    <button onclick="visAlert()">Okay</button>
+
+    <script>
+        function visAlert() {
+            // Få adgang til værdierne fra tekstfelterne
+            var fornavnVærdi = document.getElementById('fornavn').value;
+            var efternavnVærdi = document.getElementById('lastname').value;
+
+            if (fornavnVærdi === "" || efternavnVærdi === "") {
+                alert("Fejl: Begge felter skal udfyldes.");
+            } else {
+                // Vis værdierne i en alert-boks
+                alert("Fornavn: " + fornavnVærdi + "\nEfternavn: " + efternavnVærdi);
+            }
+        }
+    </script>
+
+</body>
+</html>
