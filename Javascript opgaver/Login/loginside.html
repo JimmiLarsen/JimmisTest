@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <br>
+
+    <label for="username">Angiv brugernavn</label>
+    <input type="text" id="username">
+    
+    <br>
+
+    <label for="password">Angiv kodeord</label>
+    <input type="password" id="password">
+
+    <br>
+
+    <button class="Login" onclick="returnToLandingside()">Login</button>
+
+    <section>
+        <div id="loginMess"></div>
+    </section>
+
+    <script>
+        function returnToLandingside() {
+            
+            var usernameValue = document.getElementById('username').value;
+            var passwordValue = document.getElementById('password').value;
+            var loginMess = document.getElementById('loginMess');
+
+            if (usernameValue === "jimmi1234" && passwordValue === "1234") {
+                loginMess.innerHTML = "You have successfully logged in";
+                // Omdirigér til index.html, når brugernavn og adgangskode er korrekte
+                window.location.href = "index.html";
+            } else {
+                loginMess.innerHTML = "Invalid username or password!";
+            }
+        }
+    </script>
+    
+</body>
+</html>
